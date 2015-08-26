@@ -16,4 +16,4 @@ Pebble User Guide for Korean
 
 본 문서는 GPL 라이센스를 따르고 있습니다.
 
-[LICENSE](LICENSE.md) 파일을 참조하세요.
+[LICENSE](LICENSE.md) 파일을 참고하세요.
