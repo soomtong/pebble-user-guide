@@ -5,7 +5,7 @@ author: soomtong
 
 페블(Pebble, 이하 페블)은 페블 테크날러지에서 2012년 말 클라우드 펀딩 사이트 **킥스타터** 를 통해 자금을 모아 시작된 스마트와치 프로젝트입니다. 창업자는 에릭 미기코프스키(Eric Migicovsky)이며 페블 이전에 비슷한 스마트기기를 개발하였습니다.
 
-![페블 스마트와치](images/homepage-pebble-classic-hero-0059659058fd7cef02b312603a5ffc46.png)
+![페블 스마트와치](doc/imgs/homepage-pebble-classic-hero-0059659058fd7cef02b312603a5ffc46.png)
 
 페블 스마트와치 개요
 --------------------
@@ -14,7 +14,7 @@ author: soomtong
 
 그리고 제품의 재질에 따라 **스틸**이라는 꼬리말이 붙는 금속 케이스를 사용한 버전을 포함해 현재 **페블**, **페블 스틸**, **페블 타임**, **페블 타임 스틸** 이렇게 4 종류의 페블이 있습니다. (이하 페블 클래식은 페블 오리지널과 페블 스틸 버전을 말하며, 페블 타임은 페블 타임과 페블 타임 스틸 버전을 지칭합니다.)
 
-![페블 스틸](images/homepage-pebble-steel-hero-3db1c7c22f73da9e08cf75dc79ea1a12.png)
+![페블 스틸](doc/imgs/homepage-pebble-steel-hero-3db1c7c22f73da9e08cf75dc79ea1a12.png)
 
 ### 타기기와 비교
 
@@ -49,7 +49,7 @@ author: soomtong
 
 터치스크린 대신 총 4개의 버튼을 가지고 있으며 출시 시기에 따라 약간의 차이가 있습니다.
 
-![페블 타임](images/homepage-pebble-time-hero-ca9f2a3b6b0ca89a32c5cf7a48d36140.png)
+![페블 타임](doc/imgs/homepage-pebble-time-hero-ca9f2a3b6b0ca89a32c5cf7a48d36140.png)
 
 항상 화면이 보이는 E-Paper 디스플레이를 사용하고 있으며 올해 출시한 페블 타임부터 컬러 디스플레이를 사용합니다.
 
@@ -89,7 +89,7 @@ FreeRTOS 에 기반한 페블 OS 가 설치되어 있으며 2015년 현재 페�
 
 프로그램은 와치페이스 모드와 와치앱 모드로 나뉘어져 제공되고 있습니다. 와치 페이스 앱은 버튼을 통한 제어가 불가능하며 와치페이스 셀렉터를 통해 여러 개의 와치페이스 중 하나를 선택할 수 있습니다. 3.X 대의 SDK 에 추가된 타임라인 개념에 맞춰 새로운 인터페이스가 제공되고 있습니다. 와치페이스를 중심으로 이전에 발생한 이벤트와 다음에 발생할 이벤트에 대해 탐색이 가능합니다.
 
-![타임라인](images/system-navigation.png)
+![타임라인](doc/imgs/system-navigation.png)
 
 와치앱은 버튼 컨트롤을 포함한 모든 기능을 사용할 수 있는 애플리케이션입니다. 타임라인 인터페이스를 벗어나 실행되기 때문에 독립적인 애플리케이션 환경을 제공한다는 느낌을 받게 됩니다.
 
@@ -101,7 +101,7 @@ FreeRTOS 에 기반한 페블 OS 가 설치되어 있으며 2015년 현재 페�
 
 페블에서 사용할 수 있는 애플리케이션을 JavaScript 로도 만들수 있다하지만 항상 아이폰이나 안드로이드 기기가 접속되어 있어야 하기 때문에 배터리 사용에 제약을 받게 됩니다. 또한 완성도가 높지 않아 시행착오를 겪을 확률이 높습니다.
 
-![페블 타임 스틸](images/pts-group-hero-89cef825247f25a49357474cbbaad7f8.png)
+![페블 타임 스틸](doc/imgs/pts-group-hero-89cef825247f25a49357474cbbaad7f8.png)
 
 페블 구입하기
 -------------
@@ -112,7 +112,7 @@ FreeRTOS 에 기반한 페블 OS 가 설치되어 있으며 2015년 현재 페�
 
 **[페블 공식 홈페이지](https://getpebble.com/)** | https://getpebble.com/
 
-![페블 샵](images/pebble-shop.png)
+![페블 샵](doc/imgs/pebble-shop.png)
 
 경우에 따라 온라인 장터를 통해 구입할 수 있으니 스마트 기기 관련 커뮤니티의 중고 장터 등을 통해 손에 넣는 방법도 나쁘지 않습니다.
 
@@ -128,7 +128,7 @@ FreeRTOS 에 기반한 페블 OS 가 설치되어 있으며 2015년 현재 페�
 
 ### 버튼 사용법
 
-![페블 버튼 위치](images/pebble-button-ex.png)
+![페블 버튼 위치](doc/imgs/pebble-button-ex.png)
 
 #### 와치페이스 모드
 
@@ -139,7 +139,7 @@ FreeRTOS 에 기반한 페블 OS 가 설치되어 있으며 2015년 현재 페�
 -	아래로 : 다음 타임라인 이벤트 보기
 -	선택 : 시스템 메뉴 이동
 
-![와치페이스 네비게이션](images/pebble-watchface.png)
+![와치페이스 네비게이션](doc/imgs/pebble-watchface.png)
 
 #### 와치앱 모드
 
@@ -148,7 +148,7 @@ FreeRTOS 에 기반한 페블 OS 가 설치되어 있으며 2015년 현재 페�
 -	뒤로 : 앱 종료, 오래 누르면 앱 강제 종료
 -	그 외 버튼 : 해당 와치앱에서 세팅된대로 조작됩니다.
 
-![샘플 앱](images/pebble-watchapp.png)
+![샘플 앱](doc/imgs/pebble-watchapp.png)
 
 #### 시스템 메뉴 모드
 
@@ -159,7 +159,7 @@ FreeRTOS 에 기반한 페블 OS 가 설치되어 있으며 2015년 현재 페�
 -	아래로 : 메뉴 아래로 이동
 -	선택 : 선택된 항목의 하위 메뉴로 이동 또는 해당 항목 실행
 
-![시스템 메뉴](images/pebble-system-setting.png)
+![시스템 메뉴](doc/imgs/pebble-system-setting.png)
 
 #### 단축키 지정
 
@@ -167,11 +167,11 @@ FreeRTOS 에 기반한 페블 OS 가 설치되어 있으며 2015년 현재 페�
 
 시스템 메뉴에서 단축키 지정 항목을 선택합니다.
 
-![숏컷 지정 메뉴](images/pebble-system-quicklaunch.png) ![숏컷 지정 바인딩](images/pebble-system-quicklaunch-bind.png)
+![숏컷 지정 메뉴](doc/imgs/pebble-system-quicklaunch.png) ![숏컷 지정 바인딩](doc/imgs/pebble-system-quicklaunch-bind.png)
 
 위 또는 아래 버튼을 선택합니다. 해당 버튼에 지정할 와치앱을 선택합니다.
 
-![숏컷 지정 바인딩](images/pebble-system-quicklaunch-bind-alarm.png) ![숏컷 지정 바인딩](images/pebble-system-quicklaunch-bind-set.png)
+![숏컷 지정 바인딩](doc/imgs/pebble-system-quicklaunch-bind-alarm.png) ![숏컷 지정 바인딩](doc/imgs/pebble-system-quicklaunch-bind-set.png)
 
 확인 과정을 거쳐 바인딩을 완료합니다.
 
@@ -186,7 +186,7 @@ FreeRTOS 에 기반한 페블 OS 가 설치되어 있으며 2015년 현재 페�
 
 필요에 따라 페블 시스템을 강제 종료해야하는 경우가 생기기도합니다.
 
-![팩토리 리셋](images/pebble-factory-reset-button.jpg)
+![팩토리 리셋](doc/imgs/pebble-factory-reset-button.jpg)
 
 -	뒤로 + 위로 + 선택 : 이 3개의 버튼을 동시에 오래동안 누르면 페블 시스템이 리부팅 됩니다. 리부팅이 불가능 할 정도로 시스템이 손상되었다면 공장 초기화 과정을 진행합니다.
 
@@ -196,7 +196,7 @@ FreeRTOS 에 기반한 페블 OS 가 설치되어 있으며 2015년 현재 페�
 
 #### 백라이트 설정
 
-![백라이트 설정](images/pebble-system-display.png) ![백라이트 설정](images/pebble-system-display-motion.png)
+![백라이트 설정](doc/imgs/pebble-system-display.png) ![백라이트 설정](doc/imgs/pebble-system-display-motion.png)
 
 선택 버튼을 눌러 모션 센서를 켜고 끌 수 있습니다. 백라이트의 지속 시간도 설정 가능합니다.
 
@@ -207,15 +207,15 @@ FreeRTOS 에 기반한 페블 OS 가 설치되어 있으며 2015년 현재 페�
 
 키워드는 `pebble` 로 검색하면 다음과 같은 아이콘을 확인할 수 있습니다.
 
-![스톡 앱 3.x](images/pebble-stockapp-new.png)
+![스톡 앱 3.x](doc/imgs/pebble-stockapp-new.png)
 
 구버전의 페블을 위한 앱과 페블 타임 이후의 앱이 구분되니 해당 기기에 맞는 앱을 설치해주세요.
 
-![스톡 앱 2.x](images/pebble-stockapp.png)
+![스톡 앱 2.x](doc/imgs/pebble-stockapp.png)
 
 페블에 다양한 앱을 설치하거나 페블을 관리하기 위해 페블 전용 애플리케이션을 사용해야 합니다. 그 전에 해당 기기와 연결을 진행해야 하는데 이 과정을 **페어링** 이라고 합니다.
 
-![블루투스 활성화 이미지](images/pebble-phone-bluetooth.png)
+![블루투스 활성화 이미지](doc/imgs/pebble-phone-bluetooth.png)
 
 자신의 기기에 블루투스가 켜져 있는지 확인 후 비활성화 상태라면 블루투스를 켜 주세요.
 
@@ -223,57 +223,57 @@ FreeRTOS 에 기반한 페블 OS 가 설치되어 있으며 2015년 현재 페�
 
 바다 건너 페블이 도착해 이제 막 포장을 뜯었거나 페블 시스템 메뉴를 통해 **펙토리 리셋** 을 한 뒤라면 펌웨어 체크 및 스톡 애플리케이션과 연결을 해달라는 화면이 나타납니다.
 
-![펙토리 리셋 메뉴](images/pebble-factory-reset.png) ![펙토리 리셋 확인](images/pebble-factory-reset-confirm.png)
+![펙토리 리셋 메뉴](doc/imgs/pebble-factory-reset.png) ![펙토리 리셋 확인](doc/imgs/pebble-factory-reset-confirm.png)
 
 페블이 펌웨어를 세팅할 준비가 되면 최초 접속을 위해 다음과 같은 상태로 대기합니다.
 
-![펙토리 리셋 후 페블 이미지 `/apps` ](images/pebble-create-account.png)
+![펙토리 리셋 후 페블 이미지 `/apps` ](doc/imgs/pebble-create-account.png)
 
 블루투스가 활성화되어 있는 기기의 스톡 애플리케이션을 실행해 페어링 과정을 시작합니다.
 
 구글 플레이스토어나 아이폰 앱스토어에서 스톡 애플리케이션을 설치해주세요.
 
-![플레이스토어](images/pebble-playstore.png)
+![플레이스토어](doc/imgs/pebble-playstore.png)
 
 스톡 애플리케이션이 최초 실행될 때 페블에 등록된 아이디와 패스워드가 필요합니다.
 
-![최초 실행](images/pebble-init-app.png)
+![최초 실행](doc/imgs/pebble-init-app.png)
 
 계정을 생성하고 로그인(SIGN IN)을 진행합니다.
 
-![로그인](images/pebble-sign-in.png)
+![로그인](doc/imgs/pebble-sign-in.png)
 
 계정이 없다면 새로 생성(CREATE ACCOUNT)해주세요.
 
-![계정 생성](images/pebble-create-account.png)
+![계정 생성](doc/imgs/pebble-create-account.png)
 
-![로그인 진행](images/pebble-sign-in-progress.png)
+![로그인 진행](doc/imgs/pebble-sign-in-progress.png)
 
 아직은 한국어를 지원하지 않습니다.
 
-![언어 설정](images/pebble-select-lang.png)
+![언어 설정](doc/imgs/pebble-select-lang.png)
 
 만약 블루투스가 비활성화 되어있다면 블루투스 사용을 요청합니다.
 
-![블루투스 사용 권한 요청](images/pebble-request-permission.png)
+![블루투스 사용 권한 요청](doc/imgs/pebble-request-permission.png)
 
 스톡 애플리케이션이 설치된 기기의 상태 창 또는 경고 창이 페블의 고유한 이름과 함께 접속을 요구하는 경우 승인해 주세요.
 
-![블루투스 접속 요청](images/pebble-request-connection.png)
+![블루투스 접속 요청](doc/imgs/pebble-request-connection.png)
 
-![블루투스 접속 요청](images/pebble-bt-connection.png)
+![블루투스 접속 요청](doc/imgs/pebble-bt-connection.png)
 
-![블루투스 접속 요청](images/pebble-request-connection-iphone.png)
+![블루투스 접속 요청](doc/imgs/pebble-request-connection-iphone.png)
 
-![블루투스 접속 요청](images/pebble-request-pairing-iphone.png)
+![블루투스 접속 요청](doc/imgs/pebble-request-pairing-iphone.png)
 
-![블루투스 접속 요청](images/pebble-bt-connection-ios.png)
+![블루투스 접속 요청](doc/imgs/pebble-bt-connection-ios.png)
 
 블루투스 연결이 완료되면 페블에 설치된 펌웨어의 버전을 확인하고 필요한 경우 업데이트를 진행합니다.
 
-![펌웨어 체크 및 업데이트](images/pebble-update-firmware.png)
+![펌웨어 체크 및 업데이트](doc/imgs/pebble-update-firmware.png)
 
-![펌웨어 체크 및 업데이트](images/pebble-update-firmware-iphone.png)
+![펌웨어 체크 및 업데이트](doc/imgs/pebble-update-firmware-iphone.png)
 
 이어서 페블 화면에 나타난 접속 요청에 버튼을 '위로' 눌러 완료합니다.
 
@@ -281,9 +281,9 @@ FreeRTOS 에 기반한 페블 OS 가 설치되어 있으며 2015년 현재 페�
 
 추가로 아이폰의 경우 블루투스 LE 모드를 활성화 하기 위한 페어링 과정이 한 번 더 진행됩니다. 처음 연결과 마찬가지로 접속 요구를 승인합니다.
 
-![아이폰에서 나타나는 추가 접속 요청](images/pebble-connection-btle-iphone.png)
+![아이폰에서 나타나는 추가 접속 요청](doc/imgs/pebble-connection-btle-iphone.png)
 
-![페블의 커넥션 요청](images/pebble-request-btle-iphone.png)
+![페블의 커넥션 요청](doc/imgs/pebble-request-btle-iphone.png)
 
 ~~[페블의 커넥션 요청 이미지]~~
 
@@ -291,28 +291,28 @@ FreeRTOS 에 기반한 페블 OS 가 설치되어 있으며 2015년 현재 페�
 
 기기에 따라 푸시 메시지 노티피케이션을 위한 세팅을 요청하기도 합니다. 페블 스톡 애플리케이션에게 필요한 권한을 승인해 주세요.
 
-![페블의 노티 퍼미션 요청](images/pebble-request-noti-permission.png)
+![페블의 노티 퍼미션 요청](doc/imgs/pebble-request-noti-permission.png)
 
 이어 모든 작업을 마치면 다음과 같은 화면을 만날 수 있습니다.
 
-![스톡 앱 초기 화면](images/pebble-stock-app-watchface.png)
+![스톡 앱 초기 화면](doc/imgs/pebble-stock-app-watchface.png)
 
 ### 연결이 완료된 상태의 페블 블루투스 메뉴
 
 블루투스 접속이 정상적으로 완료 되었을 경우 블루투스 메뉴는 아래와 메뉴 구조를 가집니다.
 
-![블루투스 메뉴 구조](https://developer.getpebble.com/assets/images/guides/design-and-interaction/settings.png)
+![블루투스 메뉴 구조](doc/imgs/pebble-bt-settings.png)
 
 아이폰의 경우 페블은 두 개의 블루투스 연결을 가지고 있습니다.
 
 -	스톡 애플리케이션이 앱 설치/전송 시 사용하는 **블루투스** 연결
 -	메시지(전화 수신, 문자 수신, 일반 알람 수신 등의 노티피케이션 메시지) 통신을 위한 **블루투스 LE** 연결
 
-![접속이 정상적으로 이루어진 상태의 블루투스 메뉴](images/pebble-bluetooth-menu.png)
+![접속이 정상적으로 이루어진 상태의 블루투스 메뉴](doc/imgs/pebble-bluetooth-menu.png)
 
 아이폰의 경우 블루투스 LE 상태만 접속된 경우에는 다른 메시지가 나타납니다. 이 경우 노티피케이션은 받을 수 있으나 와치페이스나 와치앱을 설치하거나 삭제할 수 없습니다.
 
-![접속이 정상적으로 이루어진 상태의 블루투스 메뉴](images/pebble-bluetooth-menu-le-only.png)
+![접속이 정상적으로 이루어진 상태의 블루투스 메뉴](doc/imgs/pebble-bluetooth-menu-le-only.png)
 
 블루투스 메뉴를 연결정보가 저장된 기기를 삭제할 수 있습니다. 연결정보가 저장된 기기의 항목을 선택해 삭제 메뉴를 통해 연결정보를 제거합니다.
 
@@ -332,11 +332,11 @@ FreeRTOS 에 기반한 페블 OS 가 설치되어 있으며 2015년 현재 페�
 
 페블이 다른 기기와 접속할 수 있도록 블루투스 메뉴에서 상태를 변경하면 새로운 기기와 페어링할 수 있습니다.
 
-![블루투스 세팅 변경 후 다른 기기와 접속 준비가 된 상태](images/pebble-bluetooth-standby.png)
+![블루투스 세팅 변경 후 다른 기기와 접속 준비가 된 상태](doc/imgs/pebble-bluetooth-standby.png)
 
 이 상태에서 다른 기기와 접속을 시도한 후 일반적인 블루투스 연결과정을 진행해주세요.
 
-![페어링 코드 확인 또는 승인 이미지](images/pebble-bt-connection.png)
+![페어링 코드 확인 또는 승인 이미지](doc/imgs/pebble-bt-connection.png)
 
 일반적인 순서를 정리하면 다음과 같습니다.
 
@@ -350,7 +350,7 @@ FreeRTOS 에 기반한 페블 OS 가 설치되어 있으며 2015년 현재 페�
 
 이렇게 두 대 이상의 블루투스 기기를 페블과 연결할 수 있습니다.
 
-![두 대와 맺어진 페블](images/pebble-bluetooth-2-host.png)
+![두 대와 맺어진 페블](doc/imgs/pebble-bluetooth-2-host.png)
 
 ### 재접속시
 
@@ -358,7 +358,7 @@ FreeRTOS 에 기반한 페블 OS 가 설치되어 있으며 2015년 현재 페�
 
 다른 기기와 접속이 맺어진 아이폰의 경우 기본 연결은 해제가 되어 있게 됩니다.
 
-![페블의 두가지 연결 중 하나가 끊어진 아이폰 블루투스 접속 상태](images/pebble-iphone-bt1.png)
+![페블의 두가지 연결 중 하나가 끊어진 아이폰 블루투스 접속 상태](doc/imgs/pebble-iphone-bt1.png)
 
 이 경우 아이폰 설정 앱의 블루투스 메뉴를 통해 접속이 끊겨 있는 페블을 다시 연결할 수 있습니다.
 
@@ -366,7 +366,7 @@ FreeRTOS 에 기반한 페블 OS 가 설치되어 있으며 2015년 현재 페�
 
 접속이 끊어진 페블의 이름을 터치해 재접속을 완료합니다.
 
-![페블과 모두 연결된 아이폰 블루투스 메뉴](images/pebble-iphone-bt2.png)
+![페블과 모두 연결된 아이폰 블루투스 메뉴](doc/imgs/pebble-iphone-bt2.png)
 
 애플리케이션 설치 및 삭제
 -------------------------
@@ -377,19 +377,19 @@ FreeRTOS 에 기반한 페블 OS 가 설치되어 있으며 2015년 현재 페�
 
 스톡 애플리케이션을 실행해 좌측 메뉴를 통해 페블 앱 스토어에 접속할 수 있습니다.
 
-![안드로이드 스톡 앱](images/pebble-android-app.jpg)
+![안드로이드 스톡 앱](doc/imgs/pebble-android-app.jpg)
 
-![아이폰 스톡 앱](images/pebble-ios-app.png)
+![아이폰 스톡 앱](doc/imgs/pebble-ios-app.png)
 
 아이폰과 비교해 안드로이드 기기는 노티피케이션 메뉴를 추가로 가지고 있습니다.
 
 'Get Apps', 'Get Faces' 메뉴를 누르면 페블 앱 스토어에 접속합니다.
 
-![아이폰 스톡 앱](images/pebble-appstore.png)
+![아이폰 스톡 앱](doc/imgs/pebble-appstore.png)
 
 우측 상단의 'SEARCH' 버튼을 눌러 필요한 앱을 검색해주세요.
 
-![아이폰 스톡 앱](images/pebble-appstore-misfit.png)
+![아이폰 스톡 앱](doc/imgs/pebble-appstore-misfit.png)
 
 'ADD' 버튼을 눌러 앱을 설치합니다. 설치된 앱은 "MY PEBBLE" 메뉴에서 확인할 수 있습니다.
 
@@ -397,7 +397,7 @@ FreeRTOS 에 기반한 페블 OS 가 설치되어 있으며 2015년 현재 페�
 
 [비공식 페블 앱 스토어 웹사이트](http://pas.cpfx.ca/) | http://pas.cpfx.ca/
 
-![비공식 웹사이트 이미지](images/pebble-appstore-unofficial.png)
+![비공식 웹사이트 이미지](doc/imgs/pebble-appstore-unofficial.png)
 
 ### 업데이트
 
@@ -407,9 +407,9 @@ FreeRTOS 에 기반한 페블 OS 가 설치되어 있으며 2015년 현재 페�
 
 업데이트 된 페블 애플리케이션이 최초 실행되는 경우에는 기기에서 파일이 전송되기 때문에 반드시 블루투스가 연결된 상태의 아이폰이나 안드로이드 기기 주변에 있도록 해야합니다.
 
-![페블 앱 스토어 버전 정보 메뉴 이미지](images/pebble-appstore-misfit-menu.png)
+![페블 앱 스토어 버전 정보 메뉴 이미지](doc/imgs/pebble-appstore-misfit-menu.png)
 
-![페블 앱의 버전 정보 예제 이미지](images/pebble-appstore-misfit-versioninfo.png)
+![페블 앱의 버전 정보 예제 이미지](doc/imgs/pebble-appstore-misfit-versioninfo.png)
 
 ### 삭제
 
@@ -417,7 +417,7 @@ FreeRTOS 에 기반한 페블 OS 가 설치되어 있으며 2015년 현재 페�
 
 스톡 애플리케이션에서 My Pebble 메뉴를 선택합니다.
 
-![와치앱 팝업 삭제 버튼 이미지](images/pebble-remove-app.png)
+![와치앱 팝업 삭제 버튼 이미지](doc/imgs/pebble-remove-app.png)
 
 삭제하려는 앱을 선택한 후 "DELETE" 버튼을 눌러 삭제 합니다.
 
@@ -426,7 +426,7 @@ FreeRTOS 에 기반한 페블 OS 가 설치되어 있으며 2015년 현재 페�
 
 페블은 아직까지 공식적으로 한글을 지원하지 않고 있습니다. 따라서 해당 사용자들은 다국어 지원 문제로 별도 수정이 된 펌웨어나 언어팩을 설치해야할 경우가 많습니다.
 
-![한글이 나오지 않는 노티피케이션](images/pebble-not-lang.png)
+![한글이 나오지 않는 노티피케이션](doc/imgs/pebble-not-lang.png)
 
 ### 한글 펌웨어 및 언어팩
 
@@ -450,7 +450,7 @@ FreeRTOS 에 기반한 페블 OS 가 설치되어 있으며 2015년 현재 페�
 
 각 문자에 접근하는 페블의 시스템 코드나 어떤 문자 테이블을 조합해 사용하는지가 공개되어 있지 않기 때문에 언어팩을 연구하는 해커들의 도움이 없을 경우 펌웨이가 업데이트될 경우 페블 시스템에 문제가 발생하여 페어링이 실패한다던가 블루투스 통신이 발생할 때마다 페블이 리부팅되는 등의 아쉬운 경험을 할 수 있습니다.
 
-![한글이 나오는 노티피케이션](images/pebble-working-lang.png)
+![한글이 나오는 노티피케이션](doc/imgs/pebble-working-lang.png)
 
 #### 펌웨어와 언어팩을 함께 사용
 
@@ -458,7 +458,7 @@ FreeRTOS 에 기반한 페블 OS 가 설치되어 있으며 2015년 현재 페�
 
 단지 완성형 한글 2천 여자 뿐 아니라 그 이상의 한글을 표현할 수 있으며 특정 언어팩에서 보이지 않던 특수문자들이 제대로 나타나고 한글과 일어를 함께 표시할 수 있는 언어팩도 공개되었습니다.
 
-![많은 특수문자가 표시되는 페블 샘플](images/pebble-working-lang2.png)
+![많은 특수문자가 표시되는 페블 샘플](doc/imgs/pebble-working-lang2.png)
 
 이를 통해 취향에 맞는 다양한 폰트를 사용한 언어팩을 제공해 주는 개발자도 있습니다.
 
@@ -482,13 +482,13 @@ FreeRTOS 에 기반한 페블 OS 가 설치되어 있으며 2015년 현재 페�
 
 안드로이드 기기에서 페블과 연결이 완료된 페블 스톡 애플리케이션과 펌웨어 파일이나 언어팩 파일을 준비해 주세요.
 
-![언어팩과 펌웨어 파일](images/pebble-file-ext.png)
+![언어팩과 펌웨어 파일](doc/imgs/pebble-file-ext.png)
 
 해당 파일을 실행하여 페블 스톡 애플리케이션 구동합니다.
 
-![펌웨어 설치 요청 선택](images/pebble-install-firm.jpg)
+![펌웨어 설치 요청 선택](doc/imgs/pebble-install-firm.jpg)
 
-![언어팩 설치 요청 선택](images/pebble-install-pack.jpg)
+![언어팩 설치 요청 선택](doc/imgs/pebble-install-pack.jpg)
 
 파일의 용량에 따라 진행 시간이 차이가 있습니다. 파일 용량이 1MB 이상인데 단 몇 초 내 작업이 끝난다면 정확히 설치되지 않은 경우로 볼 수 있습니다.
 
