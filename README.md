@@ -2,7 +2,7 @@
 
 Pebble User Guide for Korean
 
-페블 사용자 가이드
+[페블 사용자 가이드](http://soomtong.github.io/pebble-user-guide/)
 
 ## USE GUIDE
 
