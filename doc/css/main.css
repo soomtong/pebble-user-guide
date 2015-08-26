@@ -1303,7 +1303,7 @@ body {
   box-sizing: border-box;
   margin: auto;
   padding: 3px;
-  border: 1px solid #ddd;
+  /*border: 1px solid #ddd;*/
 }
 .posts-expand .post-tags {
   margin-top: 40px;
