@@ -4,7 +4,7 @@ Pebble User Guide for Korean
 
 [페블 사용자 가이드](http://soomtong.github.io/pebble-user-guide/)
 
-## USE GUIDE
+## USAGE GUIDE
 
 상업적 목적으로 무단 전재나 복제를 금하고 있습니다.
 
