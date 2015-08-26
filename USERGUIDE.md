@@ -227,7 +227,7 @@ FreeRTOS 에 기반한 페블 OS 가 설치되어 있으며 2015년 현재 페�
 
 페블이 펌웨어를 세팅할 준비가 되면 최초 접속을 위해 다음과 같은 상태로 대기합니다.
 
-![펙토리 리셋 후 페블 이미지 `/apps` ](http://i.imgur.com/hZmtme7.png)
+![펙토리 리셋 후 페블 이미지 `/apps` ](images/pebble-create-account.png)
 
 블루투스가 활성화되어 있는 기기의 스톡 애플리케이션을 실행해 페어링 과정을 시작합니다.
 
@@ -261,13 +261,13 @@ FreeRTOS 에 기반한 페블 OS 가 설치되어 있으며 2015년 현재 페�
 
 ![블루투스 접속 요청](images/pebble-request-connection.png)
 
-![블루투스 접속 요청](http://i.imgur.com/KZY8KXi.png)
+![블루투스 접속 요청](images/pebble-bt-connection.png)
 
 ![블루투스 접속 요청](images/pebble-request-connection-iphone.png)
 
 ![블루투스 접속 요청](images/pebble-request-pairing-iphone.png)
 
-![블루투스 접속 요청](http://i.imgur.com/9Jwa7iV.png)
+![블루투스 접속 요청](images/pebble-bt-connection-ios.png)
 
 블루투스 연결이 완료되면 페블에 설치된 펌웨어의 버전을 확인하고 필요한 경우 업데이트를 진행합니다.
 
@@ -336,7 +336,7 @@ FreeRTOS 에 기반한 페블 OS 가 설치되어 있으며 2015년 현재 페�
 
 이 상태에서 다른 기기와 접속을 시도한 후 일반적인 블루투스 연결과정을 진행해주세요.
 
-![페어링 코드 확인 또는 승인 이미지](http://i.imgur.com/KZY8KXi.png)
+![페어링 코드 확인 또는 승인 이미지](images/pebble-bt-connection.png)
 
 일반적인 순서를 정리하면 다음과 같습니다.
 
