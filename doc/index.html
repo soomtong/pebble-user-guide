@@ -1,0 +1,903 @@
+<!doctype html>
+<html class="theme-next use-motion ">
+<head>
+
+
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+  <link href='//fonts.googleapis.com/css?family=Lato:300,400,700,400italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+
+<link rel="stylesheet" type="text/css" href="./css/main.css?v=0.4.5.1"/>
+
+
+    <meta name="description" content="Pebble user guid for korean" />
+
+
+
+  <meta name="keywords" content="Hexo,next" />
+
+
+
+
+
+  <link rel="shorticon icon" type="image/x-icon" href="./favicon.ico?v=0.4.5.1" />
+
+
+<meta name="description" content="페블(Pebble, 이하 페블)은 페블 테크날러지에서 2012년 말 클라우드 펀딩 사이트 킥스타터 를 통해 자금을 모아 시작된 스마트와치 프로젝트입니다. 창업자는 에릭 미기코프스키(Eric Migicovsky)이며 페블 이전에 비슷한 스마트기기를 개발하였습니다.
+
+페블 스마트와치 개요현재까지 페블은 컬러가 도입된 2015년을 기준으로 크게 두 종류로 구분할">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Pebble User Guide">
+<meta property="og:url" content="http://pebblic.com/2015/08/26/pebble-user-guide/index.html">
+<meta property="og:site_name" content="Pebble User Guide">
+<meta property="og:description" content="페블(Pebble, 이하 페블)은 페블 테크날러지에서 2012년 말 클라우드 펀딩 사이트 킥스타터 를 통해 자금을 모아 시작된 스마트와치 프로젝트입니다. 창업자는 에릭 미기코프스키(Eric Migicovsky)이며 페블 이전에 비슷한 스마트기기를 개발하였습니다.
+
+페블 스마트와치 개요현재까지 페블은 컬러가 도입된 2015년을 기준으로 크게 두 종류로 구분할">
+<meta property="og:image" content="http://pebblic.com/images/homepage-pebble-classic-hero-0059659058fd7cef02b312603a5ffc46.png">
+<meta property="og:image" content="http://pebblic.com/images/homepage-pebble-steel-hero-3db1c7c22f73da9e08cf75dc79ea1a12.png">
+<meta property="og:image" content="http://pebblic.com/images/homepage-pebble-time-hero-ca9f2a3b6b0ca89a32c5cf7a48d36140.png">
+<meta property="og:image" content="http://pebblic.com/images/system-navigation.png">
+<meta property="og:image" content="http://pebblic.com/images/pts-group-hero-89cef825247f25a49357474cbbaad7f8.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-shop.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-button-ex.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-watchface.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-watchapp.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-system-setting.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-system-quicklaunch.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-system-quicklaunch-bind.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-system-quicklaunch-bind-alarm.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-system-quicklaunch-bind-set.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-factory-reset-button.jpg">
+<meta property="og:image" content="http://pebblic.com/images/pebble-system-display.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-system-display-motion.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-stockapp-new.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-stockapp.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-phone-bluetooth.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-factory-reset.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-factory-reset-confirm.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-create-account.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-playstore.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-init-app.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-sign-in.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-create-account.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-sign-in-progress.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-select-lang.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-request-permission.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-request-connection.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-bt-connection.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-request-connection-iphone.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-request-pairing-iphone.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-bt-connection-ios.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-update-firmware.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-update-firmware-iphone.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-connection-btle-iphone.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-request-btle-iphone.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-request-noti-permission.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-stock-app-watchface.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-bt-settings.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-bluetooth-menu.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-bluetooth-menu-le-only.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-bluetooth-standby.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-bt-connection.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-bluetooth-2-host.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-iphone-bt1.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-iphone-bt2.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-android-app.jpg">
+<meta property="og:image" content="http://pebblic.com/images/pebble-ios-app.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-appstore.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-appstore-misfit.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-appstore-unofficial.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-appstore-misfit-menu.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-appstore-misfit-versioninfo.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-remove-app.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-not-lang.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-working-lang.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-working-lang2.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-file-ext.png">
+<meta property="og:image" content="http://pebblic.com/images/pebble-install-firm.jpg">
+<meta property="og:image" content="http://pebblic.com/images/pebble-install-pack.jpg">
+<meta property="og:updated_time" content="2015-08-26T08:37:04.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Pebble User Guide">
+<meta name="twitter:description" content="페블(Pebble, 이하 페블)은 페블 테크날러지에서 2012년 말 클라우드 펀딩 사이트 킥스타터 를 통해 자금을 모아 시작된 스마트와치 프로젝트입니다. 창업자는 에릭 미기코프스키(Eric Migicovsky)이며 페블 이전에 비슷한 스마트기기를 개발하였습니다.
+
+페블 스마트와치 개요현재까지 페블은 컬러가 도입된 2015년을 기준으로 크게 두 종류로 구분할">
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var CONFIG = {
+    scheme: '',
+    sidebar: 'post'
+  };
+</script>
+
+  <title>  | Pebble User Guide </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="default">
+
+  <!--[if lte IE 8]>
+  <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;margin:0 auto;'>
+    <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+      <img src="http://7u2nvr.com1.z0.glb.clouddn.com/picouterie.jpg" border="0" height="42" width="820"
+           alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today or use other browser ,like chrome firefox safari."
+           style='margin-left:auto;margin-right:auto;display: block;'/>
+    </a>
+  </div>
+<![endif]-->
+  
+
+
+
+  <div class="container one-column page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><h1 class="site-meta">
+  <span class="logo-line-before"><i></i></span>
+  <a href="/" class="brand" rel="start">
+      <span class="logo">
+        <i class="icon-next-logo"></i>
+      </span>
+      <span class="site-title">Pebble User Guide</span>
+  </a>
+  <span class="logo-line-after"><i></i></span>
+</h1>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div id="content" class="content"> 
+
+  <div id="posts" class="posts-expand">
+    
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      
+      
+        <h1 class="post-title" itemprop="name headline">
+          
+          
+            
+              
+            
+          
+        </h1>
+      
+
+    </header>
+
+    <div class="post-body">
+
+      
+      
+
+      
+        <span itemprop="articleBody"><p>페블(Pebble, 이하 페블)은 페블 테크날러지에서 2012년 말 클라우드 펀딩 사이트 <strong>킥스타터</strong> 를 통해 자금을 모아 시작된 스마트와치 프로젝트입니다. 창업자는 에릭 미기코프스키(Eric Migicovsky)이며 페블 이전에 비슷한 스마트기기를 개발하였습니다.</p>
+<p><img src="images/homepage-pebble-classic-hero-0059659058fd7cef02b312603a5ffc46.png" alt="페블 스마트와치"></p>
+<h2 id="페블_스마트와치_개요">페블 스마트와치 개요</h2><p>현재까지 페블은 컬러가 도입된 2015년을 기준으로 크게 두 종류로 구분할 수 있습니다. <strong>페블 클래식</strong>과 <strong>페블 타임</strong> 으로 나눌 수 있습니다.</p>
+<p>그리고 제품의 재질에 따라 <strong>스틸</strong>이라는 꼬리말이 붙는 금속 케이스를 사용한 버전을 포함해 현재 <strong>페블</strong>, <strong>페블 스틸</strong>, <strong>페블 타임</strong>, <strong>페블 타임 스틸</strong> 이렇게 4 종류의 페블이 있습니다. (이하 페블 클래식은 페블 오리지널과 페블 스틸 버전을 말하며, 페블 타임은 페블 타임과 페블 타임 스틸 버전을 지칭합니다.)</p>
+<p><img src="images/homepage-pebble-steel-hero-3db1c7c22f73da9e08cf75dc79ea1a12.png" alt="페블 스틸"></p>
+<h3 id="타기기와_비교">타기기와 비교</h3><p>스마트와치의 선두격인 애플와치와 비교하여 장단점을 살펴보면 다음과 같습니다.</p>
+<h4 id="장점">장점</h4><ul>
+<li>상대적으로 저렴한 가격</li>
+<li>상시 대기중인 화면</li>
+<li>비교적 긴 배터리 사용 시간</li>
+<li>직관적인 버튼 인터페이스</li>
+<li>훌륭한 방진 방수 기능</li>
+<li>iOS 와 안드로이드 동시 지원</li>
+</ul>
+<h4 id="단점">단점</h4><ul>
+<li>낮은 해상도와 부족한 색상</li>
+<li>기약이 없는 다국어 지원</li>
+<li>비교적 완벽하지 않은 SDK</li>
+<li>사운드 알림 불가능</li>
+<li>약간 뒤쳐진 디자인</li>
+</ul>
+<p>전화 수신이나 문자 수신과 같은 대부분 기본적인 노티피케이션이 가능하고 별도의 장치 없이 항상 화면이 보여지는 안정감이 있습니다. 다른 액정과 다르게 픽셀을 변경할 때만 전력이 사용되는 전자 잉크 기반의 디스플레이를 가지고 있기 때문입니다. 이에 따라 흑/백 또는 제한된 색상만 출력이 가능한 단점을 가지고 있기도 합니다.</p>
+<p>그리고 일반적인 사용시 5~7일 까지도 사용가능한 배터리 타임과 상대적으로 저렴한 가격이 매력적이라 볼 수 있습니다.</p>
+<p>현재 유저들의 평가를 보면 위 두가지 장점 때문에 나머지 단점을 극복하고 있다고 봐도 과언이 아닙니다.</p>
+<p>애플이나 구글 같은 큰 기업이 아님에도 불구하고 여전히 소프트웨어 업그레이드가 진행되고 있으며 휴대폰을 확인하는 빈도를 줄여주는 목적에 최적인 스마트 디바이스라고 추천할 수 있습니다.</p>
+<h3 id="하드웨어">하드웨어</h3><p>터치스크린 대신 총 4개의 버튼을 가지고 있으며 출시 시기에 따라 약간의 차이가 있습니다.</p>
+<p><img src="images/homepage-pebble-time-hero-ca9f2a3b6b0ca89a32c5cf7a48d36140.png" alt="페블 타임"></p>
+<p>항상 화면이 보이는 E-Paper 디스플레이를 사용하고 있으며 올해 출시한 페블 타임부터 컬러 디스플레이를 사용합니다.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">구분</th>
+<th style="text-align:left">페블 클래식</th>
+<th style="text-align:left">페블 타임</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">출시</td>
+<td style="text-align:left">2013년</td>
+<td style="text-align:left">2015년</td>
+</tr>
+<tr>
+<td style="text-align:left">무게</td>
+<td style="text-align:left">37g</td>
+<td style="text-align:left">42.5g</td>
+</tr>
+<tr>
+<td style="text-align:left">밴드</td>
+<td style="text-align:left">22 mm</td>
+<td style="text-align:left">(좌동)</td>
+</tr>
+<tr>
+<td style="text-align:left">디스플레이</td>
+<td style="text-align:left">1.26” 흑백+백라이트</td>
+<td style="text-align:left">1.25” 64 컬러+백라이트</td>
+</tr>
+<tr>
+<td style="text-align:left">해상도</td>
+<td style="text-align:left">144 x 168 (176 PPI)</td>
+<td style="text-align:left">144 x 168 (182 PPI)</td>
+</tr>
+<tr>
+<td style="text-align:left">피드백</td>
+<td style="text-align:left">전동 모터</td>
+<td style="text-align:left">(좌동)</td>
+</tr>
+<tr>
+<td style="text-align:left">센서 1</td>
+<td style="text-align:left">지자계 센서(나침반)</td>
+<td style="text-align:left">(좌동)</td>
+</tr>
+<tr>
+<td style="text-align:left">센서 2</td>
+<td style="text-align:left">주변 광센서</td>
+<td style="text-align:left">(좌동)</td>
+</tr>
+<tr>
+<td style="text-align:left">센서 3</td>
+<td style="text-align:left">가속도(3축) 센서</td>
+<td style="text-align:left">(좌동)</td>
+</tr>
+<tr>
+<td style="text-align:left">블루투스</td>
+<td style="text-align:left">2.1 + 4.0(EDR, LE)</td>
+<td style="text-align:left">(좌동)</td>
+</tr>
+<tr>
+<td style="text-align:left">오디오 입력</td>
+<td style="text-align:left">없음</td>
+<td style="text-align:left">방수 마이크</td>
+</tr>
+<tr>
+<td style="text-align:left">방수</td>
+<td style="text-align:left">5기압 / 40미터</td>
+<td style="text-align:left">(좌동)</td>
+</tr>
+<tr>
+<td style="text-align:left">프로세서</td>
+<td style="text-align:left">ARM Cortex-M3</td>
+<td style="text-align:left">ARM Cortex-M4</td>
+</tr>
+<tr>
+<td style="text-align:left">메모리</td>
+<td style="text-align:left">512 KB</td>
+<td style="text-align:left">1014 KB</td>
+</tr>
+<tr>
+<td style="text-align:left">스토리지</td>
+<td style="text-align:left">8MB</td>
+<td style="text-align:left">16 MB + 1MB(System)</td>
+</tr>
+<tr>
+<td style="text-align:left">베터리</td>
+<td style="text-align:left">130mAh</td>
+<td style="text-align:left">150mAh</td>
+</tr>
+<tr>
+<td style="text-align:left">확장</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">스마트스트랩을 통한 확장</td>
+</tr>
+</tbody>
+</table>
+<p>5V 의 전원에 페블 전용 케이블로 연결되어 충전되며 충전 포트는 클래식 페블은 측면에, 페블 타임은 후면에 마그네틱 접착 방식으로 제공됩니다.</p>
+<h3 id="소프트웨어">소프트웨어</h3><p>FreeRTOS 에 기반한 페블 OS 가 설치되어 있으며 2015년 현재 페블, 페블 스틸을 위한 2.X 대의 SDK 와 페블 타임, 페블 타임 스틸을 위한 3.X 대의 SDK 를 제공하고 있습니다.</p>
+<p>개발 툴은 대부분 공개되어 있으며 임베디드 기기답게 C (C99/C11) 를 메인 언어로 사용합니다.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">구분</th>
+<th style="text-align:left">페블 클래식</th>
+<th style="text-align:left">페블 타임</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">플랫폼</td>
+<td style="text-align:left">Aplite (SDK 2.x)</td>
+<td style="text-align:left">Basalt (SDK 3.x)</td>
+</tr>
+<tr>
+<td style="text-align:left">프로그램 코드 제한</td>
+<td style="text-align:left">24kB</td>
+<td style="text-align:left">64kB</td>
+</tr>
+<tr>
+<td style="text-align:left">리소스 제한</td>
+<td style="text-align:left">96kB</td>
+<td style="text-align:left">256kB</td>
+</tr>
+</tbody>
+</table>
+<p>프로그램은 와치페이스 모드와 와치앱 모드로 나뉘어져 제공되고 있습니다. 와치 페이스 앱은 버튼을 통한 제어가 불가능하며 와치페이스 셀렉터를 통해 여러 개의 와치페이스 중 하나를 선택할 수 있습니다. 3.X 대의 SDK 에 추가된 타임라인 개념에 맞춰 새로운 인터페이스가 제공되고 있습니다. 와치페이스를 중심으로 이전에 발생한 이벤트와 다음에 발생할 이벤트에 대해 탐색이 가능합니다.</p>
+<p><img src="images/system-navigation.png" alt="타임라인"></p>
+<p>와치앱은 버튼 컨트롤을 포함한 모든 기능을 사용할 수 있는 애플리케이션입니다. 타임라인 인터페이스를 벗어나 실행되기 때문에 독립적인 애플리케이션 환경을 제공한다는 느낌을 받게 됩니다.</p>
+<p>별도의 개발자 등록 비용 없이 개발환경을 꾸려 자신의 페블 애플리케이션을 만들어 사용할 수 있습니다. 개발자 메뉴얼은 비교적 잘 갖춰져 있으나 아직 심도 있는 내용들이 공개되지 않아 애를 먹는 경우도 있습니다.</p>
+<p>유니코드 기반의 라틴계열의 문자열을 공식 지원하고 있으며 SDK 가 포함된 펌웨어를 조합하고 추출하는 방법이 유능한 개발자들의 노력에 의해 공개된 후 비 라틴 계열 언어의 비공식 언어팩을 사용하여 한글을 포함한 다른 언어를 사용할 수 있게 되었습니다.</p>
+<p>펌웨어의 버전에 따라 비공식 언어팩의 작동이 일정하지 않아 커뮤니티의 분노를 유발하기도 했습니다. 열린 생태계의 기술이 그렇듯 유능한 개발자에 의해 해결이 되기도 합니다.</p>
+<p>페블에서 사용할 수 있는 애플리케이션을 JavaScript 로도 만들수 있다하지만 항상 아이폰이나 안드로이드 기기가 접속되어 있어야 하기 때문에 배터리 사용에 제약을 받게 됩니다. 또한 완성도가 높지 않아 시행착오를 겪을 확률이 높습니다.</p>
+<p><img src="images/pts-group-hero-89cef825247f25a49357474cbbaad7f8.png" alt="페블 타임 스틸"></p>
+<h2 id="페블_구입하기">페블 구입하기</h2><p>페블은 아직 국내에서 직접 구입할 방법이 없습니다. 페블 본사의 홈페이지를 통해 주문할 수 있으며 필요에 따라 배송 대행 서비스를 사용하여 구입할 수 있습니다.</p>
+<p>현재 페블의 4가지 모델은 각각 다른 가격으로 판매되고 있습니다. 홈페이지를 통해 가격을 확인해주세요.</p>
+<p><strong><a href="https://getpebble.com/" target="_blank" rel="external">페블 공식 홈페이지</a></strong> | <a href="https://getpebble.com/" target="_blank" rel="external">https://getpebble.com/</a></p>
+<p><img src="images/pebble-shop.png" alt="페블 샵"></p>
+<p>경우에 따라 온라인 장터를 통해 구입할 수 있으니 스마트 기기 관련 커뮤니티의 중고 장터 등을 통해 손에 넣는 방법도 나쁘지 않습니다.</p>
+<ul>
+<li><a href="http://www.clien.net/cs2/bbs/board.php?bo_table=sold" target="_blank" rel="external">클리앙</a> | <a href="http://www.clien.net/cs2/bbs/board.php?bo_table=sold" target="_blank" rel="external">http://www.clien.net/cs2/bbs/board.php?bo_table=sold</a></li>
+<li><a href="https://www.facebook.com/groups/Pebble.Korea" target="_blank" rel="external">페이스북</a> | <a href="https://www.facebook.com/groups/Pebble.Korea" target="_blank" rel="external">https://www.facebook.com/groups/Pebble.Korea</a></li>
+<li><a href="http://cafe.naver.com/joonggonara" target="_blank" rel="external">네이버 중고나라</a> | <a href="http://cafe.naver.com/joonggonara" target="_blank" rel="external">http://cafe.naver.com/joonggonara</a></li>
+<li>그 외 온라인 전자기기 커뮤니티 참고</li>
+</ul>
+<h2 id="기본_조작법">기본 조작법</h2><p>페블은 크게 와치페이스 모드, 와치앱 모드, 시스템 메뉴 모드로 구분할 수 있습니다. 대부분의 인터페이스는 버튼을 통해 페블을 조작할 수 있습니다. 특별히 와치페이스나 와치앱에 따라 흔들기, 뒤집기 등을 통해 제어가 되는 경우도 있습니다.</p>
+<h3 id="버튼_사용법">버튼 사용법</h3><p><img src="images/pebble-button-ex.png" alt="페블 버튼 위치"></p>
+<h4 id="와치페이스_모드">와치페이스 모드</h4><p>와치페이스 상태일 경우 다음과 같이 사용할 수 있습니다.</p>
+<ul>
+<li>뒤로 : (아무 작동하지 않습니다)</li>
+<li>위로 : 지난 타임라인 이벤트 보기</li>
+<li>아래로 : 다음 타임라인 이벤트 보기</li>
+<li>선택 : 시스템 메뉴 이동</li>
+</ul>
+<p><img src="images/pebble-watchface.png" alt="와치페이스 네비게이션"></p>
+<h4 id="와치앱_모드">와치앱 모드</h4><p>와치앱 모드에서는 와치앱에 세팅된 대로 조작할 수 있습니다. 와치앱은 뒤로 버튼을 제외한 모든 버튼 조작에 대해 접근할 수 있습니다. (개발자는 한 번 클릭, 오래 클릭 ,두 번 클릭 등의 기능을 적용할 수 있습니다.)</p>
+<ul>
+<li>뒤로 : 앱 종료, 오래 누르면 앱 강제 종료</li>
+<li>그 외 버튼 : 해당 와치앱에서 세팅된대로 조작됩니다.</li>
+</ul>
+<p><img src="images/pebble-watchapp.png" alt="샘플 앱"></p>
+<h4 id="시스템_메뉴_모드">시스템 메뉴 모드</h4><p>페블의 메인 메뉴 상태일 경우 다음과 같이 버튼을 사용할 수 있습니다.</p>
+<ul>
+<li>뒤로 : 상위 메뉴로 이동 또는 시스템 메뉴 종료, 종료 후 선택된 와치페이스로 이동합니다.</li>
+<li>위로 : 메뉴 위로 이동</li>
+<li>아래로 : 메뉴 아래로 이동</li>
+<li>선택 : 선택된 항목의 하위 메뉴로 이동 또는 해당 항목 실행</li>
+</ul>
+<p><img src="images/pebble-system-setting.png" alt="시스템 메뉴"></p>
+<h4 id="단축키_지정">단축키 지정</h4><p>와치페이스 상태에서 위 버튼과 아래 버튼을 오래 누르는 것으로 앱 단축키를 지정할 수 있습니다.</p>
+<p>시스템 메뉴에서 단축키 지정 항목을 선택합니다.</p>
+<p><img src="images/pebble-system-quicklaunch.png" alt="숏컷 지정 메뉴"> <img src="images/pebble-system-quicklaunch-bind.png" alt="숏컷 지정 바인딩"></p>
+<p>위 또는 아래 버튼을 선택합니다. 해당 버튼에 지정할 와치앱을 선택합니다.</p>
+<p><img src="images/pebble-system-quicklaunch-bind-alarm.png" alt="숏컷 지정 바인딩"> <img src="images/pebble-system-quicklaunch-bind-set.png" alt="숏컷 지정 바인딩"></p>
+<p>확인 과정을 거쳐 바인딩을 완료합니다.</p>
+<p>이렇게 위 버튼과 아래 버튼에 필요한 앱을 연결해 줍니다.</p>
+<p>연결이 완료된 후 와치페이스 모드에서 해당 버튼을 오래 누르고 있으면 지정된 앱이 실행됩니다.</p>
+<ul>
+<li>위로 (오래 누르기) : 지정된 와치앱 즉시 실행</li>
+<li>아래로 (오래 누르기) : 지정된 와치앱 즉시 실행</li>
+</ul>
+<h4 id="강제_리부팅_/_공장_초기화">강제 리부팅 / 공장 초기화</h4><p>필요에 따라 페블 시스템을 강제 종료해야하는 경우가 생기기도합니다.</p>
+<p><img src="images/pebble-factory-reset-button.jpg" alt="팩토리 리셋"></p>
+<ul>
+<li>뒤로 + 위로 + 선택 : 이 3개의 버튼을 동시에 오래동안 누르면 페블 시스템이 리부팅 됩니다. 리부팅이 불가능 할 정도로 시스템이 손상되었다면 공장 초기화 과정을 진행합니다.</li>
+</ul>
+<h3 id="모션_사용법">모션 사용법</h3><p>페블을 흔들게 되면 백라이트가 켜집니다. 시스템 메뉴에서 백라이트 세팅값을 설정할 수 있습니다. 그 외 각 와치앱에 따라 준비된 기능이 실행되거나 활성화되기도 합니다.</p>
+<h4 id="백라이트_설정">백라이트 설정</h4><p><img src="images/pebble-system-display.png" alt="백라이트 설정"> <img src="images/pebble-system-display-motion.png" alt="백라이트 설정"></p>
+<p>선택 버튼을 눌러 모션 센서를 켜고 끌 수 있습니다. 백라이트의 지속 시간도 설정 가능합니다.</p>
+<h2 id="스톡_애플리케이션_&amp;_페어링">스톡 애플리케이션 &amp; 페어링</h2><p>아이폰이나 안드로이드 장치에 설치되는 페블 애플리케이션을 <strong>스톡 애플리케이션</strong> 이라고 부릅니다. 애플 앱스토어나 구글 플레이스토어에서 페블 모델에 따른 스톡 애플리케이션을 설치해주세요.</p>
+<p>키워드는 <code>pebble</code> 로 검색하면 다음과 같은 아이콘을 확인할 수 있습니다.</p>
+<p><img src="images/pebble-stockapp-new.png" alt="스톡 앱 3.x"></p>
+<p>구버전의 페블을 위한 앱과 페블 타임 이후의 앱이 구분되니 해당 기기에 맞는 앱을 설치해주세요.</p>
+<p><img src="images/pebble-stockapp.png" alt="스톡 앱 2.x"></p>
+<p>페블에 다양한 앱을 설치하거나 페블을 관리하기 위해 페블 전용 애플리케이션을 사용해야 합니다. 그 전에 해당 기기와 연결을 진행해야 하는데 이 과정을 <strong>페어링</strong> 이라고 합니다.</p>
+<p><img src="images/pebble-phone-bluetooth.png" alt="블루투스 활성화 이미지"></p>
+<p>자신의 기기에 블루투스가 켜져 있는지 확인 후 비활성화 상태라면 블루투스를 켜 주세요.</p>
+<h3 id="최초_연결시_또는_초기화_후_연결시">최초 연결시 또는 초기화 후 연결시</h3><p>바다 건너 페블이 도착해 이제 막 포장을 뜯었거나 페블 시스템 메뉴를 통해 <strong>펙토리 리셋</strong> 을 한 뒤라면 펌웨어 체크 및 스톡 애플리케이션과 연결을 해달라는 화면이 나타납니다.</p>
+<p><img src="images/pebble-factory-reset.png" alt="펙토리 리셋 메뉴"> <img src="images/pebble-factory-reset-confirm.png" alt="펙토리 리셋 확인"></p>
+<p>페블이 펌웨어를 세팅할 준비가 되면 최초 접속을 위해 다음과 같은 상태로 대기합니다.</p>
+<p><img src="images/pebble-create-account.png" alt="펙토리 리셋 후 페블 이미지 `/apps` "></p>
+<p>블루투스가 활성화되어 있는 기기의 스톡 애플리케이션을 실행해 페어링 과정을 시작합니다.</p>
+<p>구글 플레이스토어나 아이폰 앱스토어에서 스톡 애플리케이션을 설치해주세요.</p>
+<p><img src="images/pebble-playstore.png" alt="플레이스토어"></p>
+<p>스톡 애플리케이션이 최초 실행될 때 페블에 등록된 아이디와 패스워드가 필요합니다.</p>
+<p><img src="images/pebble-init-app.png" alt="최초 실행"></p>
+<p>계정을 생성하고 로그인(SIGN IN)을 진행합니다.</p>
+<p><img src="images/pebble-sign-in.png" alt="로그인"></p>
+<p>계정이 없다면 새로 생성(CREATE ACCOUNT)해주세요.</p>
+<p><img src="images/pebble-create-account.png" alt="계정 생성"></p>
+<p><img src="images/pebble-sign-in-progress.png" alt="로그인 진행"></p>
+<p>아직은 한국어를 지원하지 않습니다.</p>
+<p><img src="images/pebble-select-lang.png" alt="언어 설정"></p>
+<p>만약 블루투스가 비활성화 되어있다면 블루투스 사용을 요청합니다.</p>
+<p><img src="images/pebble-request-permission.png" alt="블루투스 사용 권한 요청"></p>
+<p>스톡 애플리케이션이 설치된 기기의 상태 창 또는 경고 창이 페블의 고유한 이름과 함께 접속을 요구하는 경우 승인해 주세요.</p>
+<p><img src="images/pebble-request-connection.png" alt="블루투스 접속 요청"></p>
+<p><img src="images/pebble-bt-connection.png" alt="블루투스 접속 요청"></p>
+<p><img src="images/pebble-request-connection-iphone.png" alt="블루투스 접속 요청"></p>
+<p><img src="images/pebble-request-pairing-iphone.png" alt="블루투스 접속 요청"></p>
+<p><img src="images/pebble-bt-connection-ios.png" alt="블루투스 접속 요청"></p>
+<p>블루투스 연결이 완료되면 페블에 설치된 펌웨어의 버전을 확인하고 필요한 경우 업데이트를 진행합니다.</p>
+<p><img src="images/pebble-update-firmware.png" alt="펌웨어 체크 및 업데이트"></p>
+<p><img src="images/pebble-update-firmware-iphone.png" alt="펌웨어 체크 및 업데이트"></p>
+<p>이어서 페블 화면에 나타난 접속 요청에 버튼을 ‘위로’ 눌러 완료합니다.</p>
+<p><del>[페블의 커넥션 요청 이미지]</del></p>
+<p>추가로 아이폰의 경우 블루투스 LE 모드를 활성화 하기 위한 페어링 과정이 한 번 더 진행됩니다. 처음 연결과 마찬가지로 접속 요구를 승인합니다.</p>
+<p><img src="images/pebble-connection-btle-iphone.png" alt="아이폰에서 나타나는 추가 접속 요청"></p>
+<p><img src="images/pebble-request-btle-iphone.png" alt="페블의 커넥션 요청"></p>
+<p><del>[페블의 커넥션 요청 이미지]</del></p>
+<p>마찬가지로 페블 화면에 나타난 접속 요청에 해당 버튼을 눌러 완료합니다.</p>
+<p>기기에 따라 푸시 메시지 노티피케이션을 위한 세팅을 요청하기도 합니다. 페블 스톡 애플리케이션에게 필요한 권한을 승인해 주세요.</p>
+<p><img src="images/pebble-request-noti-permission.png" alt="페블의 노티 퍼미션 요청"></p>
+<p>이어 모든 작업을 마치면 다음과 같은 화면을 만날 수 있습니다.</p>
+<p><img src="images/pebble-stock-app-watchface.png" alt="스톡 앱 초기 화면"></p>
+<h3 id="연결이_완료된_상태의_페블_블루투스_메뉴">연결이 완료된 상태의 페블 블루투스 메뉴</h3><p>블루투스 접속이 정상적으로 완료 되었을 경우 블루투스 메뉴는 아래와 메뉴 구조를 가집니다.</p>
+<p><img src="images/pebble-bt-settings.png" alt="블루투스 메뉴 구조"></p>
+<p>아이폰의 경우 페블은 두 개의 블루투스 연결을 가지고 있습니다.</p>
+<ul>
+<li>스톡 애플리케이션이 앱 설치/전송 시 사용하는 <strong>블루투스</strong> 연결</li>
+<li>메시지(전화 수신, 문자 수신, 일반 알람 수신 등의 노티피케이션 메시지) 통신을 위한 <strong>블루투스 LE</strong> 연결</li>
+</ul>
+<p><img src="images/pebble-bluetooth-menu.png" alt="접속이 정상적으로 이루어진 상태의 블루투스 메뉴"></p>
+<p>아이폰의 경우 블루투스 LE 상태만 접속된 경우에는 다른 메시지가 나타납니다. 이 경우 노티피케이션은 받을 수 있으나 와치페이스나 와치앱을 설치하거나 삭제할 수 없습니다.</p>
+<p><img src="images/pebble-bluetooth-menu-le-only.png" alt="접속이 정상적으로 이루어진 상태의 블루투스 메뉴"></p>
+<p>블루투스 메뉴를 연결정보가 저장된 기기를 삭제할 수 있습니다. 연결정보가 저장된 기기의 항목을 선택해 삭제 메뉴를 통해 연결정보를 제거합니다.</p>
+<h4 id="블루투스_접속_정보_삭제">블루투스 접속 정보 삭제</h4><p>페블 메인 메뉴로 이동 후 블루투스 메뉴에서 접속되어 있는 기기로 위 아래 버튼을 통해 이동 한 후 선택 버튼을 눌러 삭제합니다. 뒤로 버튼을 누르면 취소됩니다.</p>
+<h3 id="다른_기기로_연결">다른 기기로 연결</h3><p>필요에 따라 다른 기기와 페어링을 할 필요가 있습니다.</p>
+<ul>
+<li>아이폰 사용자가 커스텀 펌웨어나 언어팩을 설치할 경우 안드로이드 기기와 연결해야 합니다.</li>
+</ul>
+<p>두 대 이상의 기기에서 연결해 사용하지만 단 하나의 스톡 애플리케이션과 통신할 수 있습니다. 페블이 다른 기기와 접속되면 이전에 접속된 연결은 해제됩니다.</p>
+<h4 id="다른_기기로_연결하기_위한_과정">다른 기기로 연결하기 위한 과정</h4><p>페블이 다른 기기와 접속할 수 있도록 블루투스 메뉴에서 상태를 변경하면 새로운 기기와 페어링할 수 있습니다.</p>
+<p><img src="images/pebble-bluetooth-standby.png" alt="블루투스 세팅 변경 후 다른 기기와 접속 준비가 된 상태"></p>
+<p>이 상태에서 다른 기기와 접속을 시도한 후 일반적인 블루투스 연결과정을 진행해주세요.</p>
+<p><img src="images/pebble-bt-connection.png" alt="페어링 코드 확인 또는 승인 이미지"></p>
+<p>일반적인 순서를 정리하면 다음과 같습니다.</p>
+<ol>
+<li>페블의 세팅 메뉴로 이동 후 블루투스 메뉴로 들어갑니다.</li>
+<li>위/아래 버튼을 사용해 ‘Connection’ 메뉴에서 다른 곳으로 이동합니다.</li>
+<li>다른 아이템으로 이동을 마치면 커넥션 메뉴에 다른 메시지(Now Discoverable)가 나타납니다.</li>
+<li>새로 접속할 기기의 페블 스톡 애플리케이션을 실행합니다.</li>
+<li>이전에 설명한 블루투스 연결 과정을 진행합니다.</li>
+<li>새로 접속한 기기의 접속 요청과 페블의 접속 요청을 모두 승인합니다.</li>
+<li>페블의 블루투스 메뉴에 추가된 기기를 확인합니다.</li>
+</ol>
+<p>이렇게 두 대 이상의 블루투스 기기를 페블과 연결할 수 있습니다.</p>
+<p><img src="images/pebble-bluetooth-2-host.png" alt="두 대와 맺어진 페블"></p>
+<h3 id="재접속시">재접속시</h3><p>어떤 이유로 접속이 끊긴 상황이라면 ‘다른 기기로 연결’ 방법을 시도해 재접속을 진행해 주세요. 만약 이 과정을 통해 재접속이 되지 않는다면 접속 정보가 저장된 기기의 항목을 삭제하고 다시 이전에 설명된 블루투스 연결 과정을 진행해주세요.</p>
+<p>다른 기기와 접속이 맺어진 아이폰의 경우 기본 연결은 해제가 되어 있게 됩니다.</p>
+<p><img src="images/pebble-iphone-bt1.png" alt="페블의 두가지 연결 중 하나가 끊어진 아이폰 블루투스 접속 상태"></p>
+<p>이 경우 아이폰 설정 앱의 블루투스 메뉴를 통해 접속이 끊겨 있는 페블을 다시 연결할 수 있습니다.</p>
+<p>먼저 기존에 연결된 기기와 접속을 끊어주세요. 접속이 끊긴 후 아이폰의 설정 앱의 블루투스 메뉴로 들어갑니다.</p>
+<p>접속이 끊어진 페블의 이름을 터치해 재접속을 완료합니다.</p>
+<p><img src="images/pebble-iphone-bt2.png" alt="페블과 모두 연결된 아이폰 블루투스 메뉴"></p>
+<h2 id="애플리케이션_설치_및_삭제">애플리케이션 설치 및 삭제</h2><p>현재는 오직 블루투스가 연결된 기기의 스톡 애플리케이션을 통해 페블 애플리케이션을 설치할 수 있습니다. 단, 개발자 툴이 설치된 상태라면 운영체제 시스템 콘솔에서도 설치할 수 있습니다.</p>
+<h3 id="페블_앱_스토어">페블 앱 스토어</h3><p>스톡 애플리케이션을 실행해 좌측 메뉴를 통해 페블 앱 스토어에 접속할 수 있습니다.</p>
+<p><img src="images/pebble-android-app.jpg" alt="안드로이드 스톡 앱"></p>
+<p><img src="images/pebble-ios-app.png" alt="아이폰 스톡 앱"></p>
+<p>아이폰과 비교해 안드로이드 기기는 노티피케이션 메뉴를 추가로 가지고 있습니다.</p>
+<p>‘Get Apps’, ‘Get Faces’ 메뉴를 누르면 페블 앱 스토어에 접속합니다.</p>
+<p><img src="images/pebble-appstore.png" alt="아이폰 스톡 앱"></p>
+<p>우측 상단의 ‘SEARCH’ 버튼을 눌러 필요한 앱을 검색해주세요.</p>
+<p><img src="images/pebble-appstore-misfit.png" alt="아이폰 스톡 앱"></p>
+<p>‘ADD’ 버튼을 눌러 앱을 설치합니다. 설치된 앱은 “MY PEBBLE” 메뉴에서 확인할 수 있습니다.</p>
+<p>비공식 웹사이트를 통해 페블 앱 스토어를 검색해 볼 수도 있습니다.</p>
+<p><a href="http://pas.cpfx.ca/" target="_blank" rel="external">비공식 페블 앱 스토어 웹사이트</a> | <a href="http://pas.cpfx.ca/" target="_blank" rel="external">http://pas.cpfx.ca/</a></p>
+<p><img src="images/pebble-appstore-unofficial.png" alt="비공식 웹사이트 이미지"></p>
+<h3 id="업데이트">업데이트</h3><p>현재까지는 페블 앱스토어는 사용 중인 와치페이스, 와치앱이 업데이트되어도 별도의 알림이 전송되지 않습니다. 하지만 해당 애플리케이션이 업데이트되어 페블 앱 스토어 배포 서버에 등록이 된 상태라면 다음 와치페이스나 와치앱이 실행될 때 새로운 애플리케이션으로 다운로드 되어 실행됩니다.</p>
+<p>페블 앱 스토어에서 해당 애플리케이션의 버전 변경 이력을 살펴 볼 수 있습니다. 가끔 한 번에 정보가 갱신되지 않는 경우가 있으니 참고해 주세요.</p>
+<p>업데이트 된 페블 애플리케이션이 최초 실행되는 경우에는 기기에서 파일이 전송되기 때문에 반드시 블루투스가 연결된 상태의 아이폰이나 안드로이드 기기 주변에 있도록 해야합니다.</p>
+<p><img src="images/pebble-appstore-misfit-menu.png" alt="페블 앱 스토어 버전 정보 메뉴 이미지"></p>
+<p><img src="images/pebble-appstore-misfit-versioninfo.png" alt="페블 앱의 버전 정보 예제 이미지"></p>
+<h3 id="삭제">삭제</h3><p>페블 스톡 애플리케이션을 통해 설치된 페블 애플리케이션을 삭제할 수 있습니다. 현재까지 다른 방법으로 개별적인 페블 애플리케이션을 삭제할 수는 없습니다.</p>
+<p>스톡 애플리케이션에서 My Pebble 메뉴를 선택합니다.</p>
+<p><img src="images/pebble-remove-app.png" alt="와치앱 팝업 삭제 버튼 이미지"></p>
+<p>삭제하려는 앱을 선택한 후 “DELETE” 버튼을 눌러 삭제 합니다.</p>
+<h2 id="커스텀_펌웨어_및_언어팩_설치">커스텀 펌웨어 및 언어팩 설치</h2><p>페블은 아직까지 공식적으로 한글을 지원하지 않고 있습니다. 따라서 해당 사용자들은 다국어 지원 문제로 별도 수정이 된 펌웨어나 언어팩을 설치해야할 경우가 많습니다.</p>
+<p><img src="images/pebble-not-lang.png" alt="한글이 나오지 않는 노티피케이션"></p>
+<h3 id="한글_펌웨어_및_언어팩">한글 펌웨어 및 언어팩</h3><p>몇명의 국내 개발자가 페블 펌웨어 및 언어팩을 분석하고 연구하여 페블에서도 한글이 보이도록 커스텀 펌웨어와 한글 언어팩을 제공해 주고 있습니다.</p>
+<p>펌웨어로 설치하는 방법과 언어팩을 설치하는 방법으로 구분되고 또는 둘의 조합으로 최대의 효과를 보여주고 있습니다.</p>
+<h4 id="펌웨어_방식">펌웨어 방식</h4><p>펌웨어를 통해 한글을 표현하는 방식은 언어팩이 개발되기 이전의 방법으로 한글 1천 ~ 2천자를 포함하여 공개되었습니다. 펌웨어 용량 문제로 인해 모든 한글 및 특수문자를 표현하지 못하는 단점이 있었습니다. 하지만 이 과정으로 인해 국내 페블 사용자가 늘어났고 덕분에 더 나은 한글 환경이 구현되었다고 볼 수 있습니다.</p>
+<p>페블 오리지널과 페블 스틸의 2.x 버전 펌웨어 사용자들에게 큰 도움이 되었습니다.</p>
+<h4 id="언어팩_방식">언어팩 방식</h4><p>그러던 중 언어팩을 조작해 사용하는 방법이 개발되어 더 풍부한 한글 환경을 제공할 수 있는 기회가 열렸습니다. 페블 본사에서 중국어 지원을 약속한 것과 더불어 라틴 계열 언어가 아니더라도 페블을 사용할 수 있는 시스템으로 업그레이드 되는 과정에서 얻게된 결과로 보여집니다.</p>
+<p>커스텀 펌웨어를 통해 제공되던 시절에 비해 더 많은 한글을 사용할 수 있게되었습니다.</p>
+<p>언어팩과 펌웨어가 구분됨으로 인해 공식 펌웨어가 업데이트 되더라도 언어팩을 다시 설치할 필요 없이 사용할 수 있습니다. 단, 특정 공식 펌웨어 시절에 문제가 발생하기도 했습니다. 또한 일부 특수문자가 안보이는 문제가 있습니다.</p>
+<p>각 문자에 접근하는 페블의 시스템 코드나 어떤 문자 테이블을 조합해 사용하는지가 공개되어 있지 않기 때문에 언어팩을 연구하는 해커들의 도움이 없을 경우 펌웨이가 업데이트될 경우 페블 시스템에 문제가 발생하여 페어링이 실패한다던가 블루투스 통신이 발생할 때마다 페블이 리부팅되는 등의 아쉬운 경험을 할 수 있습니다.</p>
+<p><img src="images/pebble-working-lang.png" alt="한글이 나오는 노티피케이션"></p>
+<h4 id="펌웨어와_언어팩을_함께_사용">펌웨어와 언어팩을 함께 사용</h4><p>국내 페블 개발자에 의해 펌웨어와 언어팩을 함께 사용하는 법이 개발되었다는 소식을 통해 더 나은 한글 페블 사용 환경이 열렸습니다.</p>
+<p>단지 완성형 한글 2천 여자 뿐 아니라 그 이상의 한글을 표현할 수 있으며 특정 언어팩에서 보이지 않던 특수문자들이 제대로 나타나고 한글과 일어를 함께 표시할 수 있는 언어팩도 공개되었습니다.</p>
+<p><img src="images/pebble-working-lang2.png" alt="많은 특수문자가 표시되는 페블 샘플"></p>
+<p>이를 통해 취향에 맞는 다양한 폰트를 사용한 언어팩을 제공해 주는 개발자도 있습니다.</p>
+<h4 id="남은_문제들">남은 문제들</h4><p>공식 펌웨어가 업데이트 될 때마다 바로 업그레이드 하기가 부담이 됩니다. 문제가 없는지 확인되었다는 소식이 들릴 때 펌웨어를 업그레이드 해야 하는 불편이 있습니다.</p>
+<p>페블 본사는 다국어 지원에 대해 아직 아무런 코멘트를 하고 있지 않습니다. 페블 본사의 어느 개발자는 다국어 지원 계획이 없다고 개발자 커뮤니티에 언급하기도 했습니다.</p>
+<p>또 아직은 조합형 한글 전체를 표시할 수 없는 점 등, 페블의 공식 지원이 있지 않고서는 만족할 수 없습니다. 또한 페블 펌웨어가 변경될 때마다 개인 개발자에게 많은 부담이 되고 있는 것도 문제입니다.</p>
+<h3 id="펌웨어_및_언어팩_설치하기">펌웨어 및 언어팩 설치하기</h3><p>아직까지 커스텀 펌웨어나 언어팩은 안드로이드 기기에서만 설치 가능합니다.</p>
+<p>페블 스톡 애플리케이션에서 다음의 확장자를 가진 파일을 사용할 수 있습니다.</p>
+<ul>
+<li>PBW : 페블 애플리케이션 파일</li>
+<li>PBZ : 펌웨어 파일</li>
+<li>PBL : 언어팩 파일</li>
+</ul>
+<p>안드로이드 기기에서 페블과 연결이 완료된 페블 스톡 애플리케이션과 펌웨어 파일이나 언어팩 파일을 준비해 주세요.</p>
+<p><img src="images/pebble-file-ext.png" alt="언어팩과 펌웨어 파일"></p>
+<p>해당 파일을 실행하여 페블 스톡 애플리케이션 구동합니다.</p>
+<p><img src="images/pebble-install-firm.jpg" alt="펌웨어 설치 요청 선택"></p>
+<p><img src="images/pebble-install-pack.jpg" alt="언어팩 설치 요청 선택"></p>
+<p>파일의 용량에 따라 진행 시간이 차이가 있습니다. 파일 용량이 1MB 이상인데 단 몇 초 내 작업이 끝난다면 정확히 설치되지 않은 경우로 볼 수 있습니다.</p>
+<p>작업이 완료된 후 한글이 제대로 보이는지 확인해주세요.</p>
+</span>
+      
+    </div>
+
+    <footer class="post-footer">
+
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+ </div>
+
+        
+
+        
+          <div class="comments" id="comments">
+            
+          </div>
+        
+      </div>
+
+      
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table Of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" src="./images/default_avatar.jpg" alt="Soomtong" itemprop="image"/>
+          <p class="site-author-name" itemprop="name">Soomtong</p>
+        </div>
+        <p class="site-description motion-element" itemprop="description">Pebble user guid for korean</p>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+      </section>
+
+      
+        <section class="post-toc-wrap sidebar-panel-active">
+          <div class="post-toc-indicator-top post-toc-indicator"></div>
+          <div class="post-toc">
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#페블_스마트와치_개요"><span class="nav-number">1.</span> <span class="nav-text">페블 스마트와치 개요</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#타기기와_비교"><span class="nav-number">1.1.</span> <span class="nav-text">타기기와 비교</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#장점"><span class="nav-number">1.1.1.</span> <span class="nav-text">장점</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#단점"><span class="nav-number">1.1.2.</span> <span class="nav-text">단점</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#하드웨어"><span class="nav-number">1.2.</span> <span class="nav-text">하드웨어</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#소프트웨어"><span class="nav-number">1.3.</span> <span class="nav-text">소프트웨어</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#페블_구입하기"><span class="nav-number">2.</span> <span class="nav-text">페블 구입하기</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#기본_조작법"><span class="nav-number">3.</span> <span class="nav-text">기본 조작법</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#버튼_사용법"><span class="nav-number">3.1.</span> <span class="nav-text">버튼 사용법</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#와치페이스_모드"><span class="nav-number">3.1.1.</span> <span class="nav-text">와치페이스 모드</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#와치앱_모드"><span class="nav-number">3.1.2.</span> <span class="nav-text">와치앱 모드</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#시스템_메뉴_모드"><span class="nav-number">3.1.3.</span> <span class="nav-text">시스템 메뉴 모드</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#단축키_지정"><span class="nav-number">3.1.4.</span> <span class="nav-text">단축키 지정</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#강제_리부팅_/_공장_초기화"><span class="nav-number">3.1.5.</span> <span class="nav-text">강제 리부팅 / 공장 초기화</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#모션_사용법"><span class="nav-number">3.2.</span> <span class="nav-text">모션 사용법</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#백라이트_설정"><span class="nav-number">3.2.1.</span> <span class="nav-text">백라이트 설정</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#스톡_애플리케이션_&_페어링"><span class="nav-number">4.</span> <span class="nav-text">스톡 애플리케이션 & 페어링</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#최초_연결시_또는_초기화_후_연결시"><span class="nav-number">4.1.</span> <span class="nav-text">최초 연결시 또는 초기화 후 연결시</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#연결이_완료된_상태의_페블_블루투스_메뉴"><span class="nav-number">4.2.</span> <span class="nav-text">연결이 완료된 상태의 페블 블루투스 메뉴</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#블루투스_접속_정보_삭제"><span class="nav-number">4.2.1.</span> <span class="nav-text">블루투스 접속 정보 삭제</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#다른_기기로_연결"><span class="nav-number">4.3.</span> <span class="nav-text">다른 기기로 연결</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#다른_기기로_연결하기_위한_과정"><span class="nav-number">4.3.1.</span> <span class="nav-text">다른 기기로 연결하기 위한 과정</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#재접속시"><span class="nav-number">4.4.</span> <span class="nav-text">재접속시</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#애플리케이션_설치_및_삭제"><span class="nav-number">5.</span> <span class="nav-text">애플리케이션 설치 및 삭제</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#페블_앱_스토어"><span class="nav-number">5.1.</span> <span class="nav-text">페블 앱 스토어</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#업데이트"><span class="nav-number">5.2.</span> <span class="nav-text">업데이트</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#삭제"><span class="nav-number">5.3.</span> <span class="nav-text">삭제</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#커스텀_펌웨어_및_언어팩_설치"><span class="nav-number">6.</span> <span class="nav-text">커스텀 펌웨어 및 언어팩 설치</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#한글_펌웨어_및_언어팩"><span class="nav-number">6.1.</span> <span class="nav-text">한글 펌웨어 및 언어팩</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#펌웨어_방식"><span class="nav-number">6.1.1.</span> <span class="nav-text">펌웨어 방식</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#언어팩_방식"><span class="nav-number">6.1.2.</span> <span class="nav-text">언어팩 방식</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#펌웨어와_언어팩을_함께_사용"><span class="nav-number">6.1.3.</span> <span class="nav-text">펌웨어와 언어팩을 함께 사용</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#남은_문제들"><span class="nav-number">6.1.4.</span> <span class="nav-text">남은 문제들</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#펌웨어_및_언어팩_설치하기"><span class="nav-number">6.2.</span> <span class="nav-text">펌웨어 및 언어팩 설치하기</span></a></li></ol></li></ol></div>
+            
+          </div>
+          <div class="post-toc-indicator-bottom post-toc-indicator"></div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner"> <div class="copyright" >
+  
+  &copy; &nbsp; 
+  <span itemprop="copyrightYear">2015</span>
+  <span class="with-love">
+    <i class="icon-next-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Soomtong</span>
+</div>
+
+<div class="powered-by">
+  Powered by <a class="theme-link" href="http://hexo.io">Hexo</a>
+</div>
+
+<div class="theme-info">
+  Theme -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT
+  </a>
+</div>
+
+
+ </div>
+    </footer>
+
+    <div class="back-to-top"></div>
+  </div>
+
+  <script type="text/javascript" src="./vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  
+  
+    
+    
+
+  
+
+
+  
+  
+
+  <script type="text/javascript" src="./js/helpers.js?v=0.4.5.1"></script>
+  
+
+  <script type="text/javascript" src="./vendors/velocity/velocity.min.js"></script>
+  <script type="text/javascript" src="./vendors/velocity/velocity.ui.min.js"></script>
+
+  <script type="text/javascript" src="./js/motion_global.js?v=0.4.5.1" id="motion.global"></script>
+
+
+
+
+  <script type="text/javascript" src="./js/nav-toggle.js?v=0.4.5.1"></script>
+  <script type="text/javascript" src="./vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  
+<script type="text/javascript" src="./js/bootstrap.scrollspy.js?v=0.4.5.1" id="bootstrap.scrollspy.custom"></script>
+
+
+<script type="text/javascript" id="sidebar.toc.highlight">
+  $(document).ready(function () {
+    var tocSelector = '.post-toc';
+    var $tocSelector = $(tocSelector);
+    var activeCurrentSelector = '.active-current';
+
+    $tocSelector
+      .on('activate.bs.scrollspy', function () {
+        var $currentActiveElement = $(tocSelector + ' .active').last();
+
+        removeCurrentActiveClass();
+        $currentActiveElement.addClass('active-current');
+
+        $tocSelector[0].scrollTop = $currentActiveElement.position().top;
+      })
+      .on('clear.bs.scrollspy', function () {
+        removeCurrentActiveClass();
+      });
+
+    function removeCurrentActiveClass () {
+      $(tocSelector + ' ' + activeCurrentSelector)
+        .removeClass(activeCurrentSelector.substring(1));
+    }
+
+    function processTOC () {
+      getTOCMaxHeight();
+      toggleTOCOverflowIndicators();
+    }
+
+    function getTOCMaxHeight () {
+      var height = $('.sidebar').height() -
+                   $tocSelector.position().top -
+                   $('.post-toc-indicator-bottom').height();
+
+      $tocSelector.css('height', height);
+
+      return height;
+    }
+
+    function toggleTOCOverflowIndicators () {
+      tocOverflowIndicator(
+        '.post-toc-indicator-top',
+        $tocSelector.scrollTop() > 0 ? 'show' : 'hide'
+      );
+
+      tocOverflowIndicator(
+        '.post-toc-indicator-bottom',
+        $tocSelector.scrollTop() >= $tocSelector.find('ol').height() - $tocSelector.height() ? 'hide' : 'show'
+      )
+    }
+
+    $(document).on('sidebar.motion.complete', function () {
+      processTOC();
+    });
+
+    $('body').scrollspy({ target: tocSelector });
+    $(window).on('resize', function () {
+      if ( $('.sidebar').hasClass('sidebar-active') ) {
+        processTOC();
+      }
+    });
+
+    onScroll($tocSelector);
+
+    function onScroll (element) {
+      element.on('mousewheel DOMMouseScroll', function (event) {
+          var oe = event.originalEvent;
+          var delta = oe.wheelDelta || -oe.detail;
+
+          this.scrollTop += ( delta < 0 ? 1 : -1 ) * 30;
+          event.preventDefault();
+
+          toggleTOCOverflowIndicators();
+      });
+    }
+
+    function tocOverflowIndicator (indicator, action) {
+      var $indicator = $(indicator);
+      var opacity = action === 'show' ? 0.4 : 0;
+      $indicator.velocity ?
+        $indicator.velocity('stop').velocity({
+          opacity: opacity
+        }, { duration: 100 }) :
+        $indicator.stop().animate({
+          opacity: opacity
+        }, 100);
+    }
+
+  });
+</script>
+
+<script type="text/javascript" id="sidebar.nav">
+  $(document).ready(function () {
+    var html = $('html');
+    var TAB_ANIMATE_DURATION = 200;
+    var hasVelocity = $.isFunction(html.velocity);
+
+    $('.sidebar-nav li').on('click', function () {
+      var item = $(this);
+      var activeTabClassName = 'sidebar-nav-active';
+      var activePanelClassName = 'sidebar-panel-active';
+      if (item.hasClass(activeTabClassName)) {
+        return;
+      }
+
+      var currentTarget = $('.' + activePanelClassName);
+      var target = $('.' + item.data('target'));
+
+      hasVelocity ?
+        currentTarget.velocity('transition.slideUpOut', TAB_ANIMATE_DURATION, function () {
+          target
+            .velocity('stop')
+            .velocity('transition.slideDownIn', TAB_ANIMATE_DURATION)
+            .addClass(activePanelClassName);
+        }) :
+        currentTarget.animate({ opacity: 0 }, TAB_ANIMATE_DURATION, function () {
+          currentTarget.hide();
+          target
+            .stop()
+            .css({'opacity': 0, 'display': 'block'})
+            .animate({ opacity: 1 }, TAB_ANIMATE_DURATION, function () {
+              currentTarget.removeClass(activePanelClassName);
+              target.addClass(activePanelClassName);
+            });
+        });
+
+      item.siblings().removeClass(activeTabClassName);
+      item.addClass(activeTabClassName);
+    });
+
+    $('.post-toc a').on('click', function (e) {
+      e.preventDefault();
+      var targetSelector = escapeSelector(this.getAttribute('href'));
+      var offset = $(targetSelector).offset().top;
+      hasVelocity ?
+        html.velocity('stop').velocity('scroll', {
+          offset: offset  + 'px',
+          mobileHA: false
+        }) :
+        $('html, body').stop().animate({
+          scrollTop: offset
+        }, 500);
+    });
+
+    // Expand sidebar on post detail page by default, when post has a toc.
+    var $tocContent = $('.post-toc-content');
+    if (isDesktop() && CONFIG.sidebar === 'post') {
+      if ($tocContent.length > 0 && $tocContent.html().trim().length > 0) {
+        displaySidebar();
+      }
+    }
+  });
+</script>
+
+
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      if (CONFIG.sidebar === 'always') {
+        displaySidebar();
+      }
+      if (isMobile()) {
+        FastClick.attach(document.body);
+      }
+    });
+  </script>
+
+  
+
+  
+  
+
+  
+  <script type="text/javascript" src="./js/lazyload.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      $("#posts").find('img').lazyload({
+        placeholder: "/images/loading.gif",
+        effect: "fadeIn"
+      });
+    });
+  </script>
+</body>
+</html>
