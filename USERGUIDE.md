@@ -245,7 +245,7 @@ FreeRTOS 에 기반한 페블 OS 가 설치되어 있으며 2015년 현재 페�
 
 계정이 없다면 새로 생성(CREATE ACCOUNT)해주세요.
 
-![계정 생성](http://i.imgur.com/QxKsSHL.png)
+![계정 생성](images/pebble-create-account.png)
 
 ![로그인 진행](images/pebble-sign-in-progress.png)
 
